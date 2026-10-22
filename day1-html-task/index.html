@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal profile and contact page">
+    <title>Ali Murtaza | Personal Profile</title>
+</head>
+<body>
+
+    <!-- Main Heading -->
+    <header>
+        <h1>Ali Murtaza</h1>
+        <p>Software Engineer  | Speciallized in Full Stack development and Automation</p>
+        <hr>
+    </header>
+
+    <!-- Profile Section -->
+    <main>
+        <section>
+            <h2>My Profile</h2>
+
+            <img src="picofme.png" 
+                 alt="Profile picture of Ali Murtaza"
+                 width="180"
+                 height="180">
+
+            <p>
+                Hello! My name is <strong>Ali Murtaza</strong>.
+                I am a Software Engineer. I am speciallied in
+                Full Stack Development and Automation. Now a days 
+                I am exploring Flutter and AI Developement.
+            </p>
+
+            <p>
+                I enjoy learning new technologies and building
+                web applications. My goal is to become a
+                <em>professional software developer</em>.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- About Section -->
+        <section>
+            <h2>About Me</h2>
+
+            <p>
+                I am interested in full-stack web development
+                and artificial intelligence.
+                I have worked on different academic and
+                personal projects.
+            </p>
+
+            <p>
+                Currently, I am focusing on improving my
+                <mark>HTML, CSS, JavaScript, and React</mark>
+                skills.
+            </p>
+
+            <small>
+                I believe that consistent practice is the
+                best way to improve programming skills.
+            </small>
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section>
+            <h2>My Skills</h2>
+
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Python</li>
+            </ul>
+
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Teamwork</li>
+                <li>Communication</li>
+                <li>Time Management</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+
+            <ol>
+                <li>
+                    <strong>BS Software Engineering</strong>
+                    <br>
+                    COMSATS University Islamabad,
+                    Lahore Campus
+                </li>
+                <li>
+                    <strong>Intermediate</strong>
+                    <br>
+                    Pre-Medical
+                </li>
+                <li>
+                    <strong>Matriculation</strong>
+                    <br>
+                    Science
+                </li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- Useful Links -->
+        <section>
+            <h2>My Links</h2>
+
+            <div>
+                <p>
+                    Visit my
+                    <a href="https://github.com/theAliMurtaza"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub Profile
+                    </a>
+                </p>
+
+                <p>
+                    Learn HTML from
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        MDN Web Docs
+                    </a>
+                </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section>
+            <h2>Contact Me</h2>
+
+            <p>
+                You can fill out the following form
+                to share your information.
+            </p>
+
+            <form action="#" method="get">
+
+                <!-- Name -->
+                <div>
+                    <label for="fullName">Full Name:</label>
+                    <br>
+                    <input type="text"
+                           id="fullName"
+                           name="fullName"
+                           placeholder="Enter your full name"
+                           required>
+                </div>
+
+                <br>
+
+                <!-- Email -->
+                <div>
+                    <label for="email">Email Address:</label>
+                    <br>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="Enter your email"
+                           required>
+                </div>
+
+                <br>
+
+                <!-- Password -->
+                <div>
+                    <label for="password">Password:</label>
+                    <br>
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           placeholder="Enter your password"
+                           minlength="6"
+                           required>
+                </div>
+
+                <br>
+
+                <!-- Date -->
+                <div>
+                    <label for="date">Date of Birth:</label>
+                    <br>
+                    <input type="date"
+                           id="date"
+                           name="date"
+                           required>
+                </div>
+
+                <br>
+
+                <!-- Age -->
+                <div>
+                    <label for="age">Age:</label>
+                    <br>
+                    <input type="number"
+                           id="age"
+                           name="age"
+                           min="16"
+                           max="100"
+                           step="1"
+                           placeholder="Enter your age"
+                           required>
+                </div>
+
+                <br>
+
+                <!-- Gender -->
+                <div>
+                    <p>Gender:</p>
+
+                    <input type="radio"
+                           id="male"
+                           name="gender"
+                           value="male"
+                           required>
+                    <label for="male">Male</label>
+
+                    <input type="radio"
+                           id="female"
+                           name="gender"
+                           value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio"
+                           id="other"
+                           name="gender"
+                           value="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <br>
+
+                <!-- Interests -->
+                <div>
+                    <p>Select Your Interests:</p>
+
+                    <input type="checkbox"
+                           id="web"
+                           name="interests"
+                           value="web"
+                           checked>
+                    <label for="web">Web Development</label>
+                    <br>
+
+                    <input type="checkbox"
+                           id="ai"
+                           name="interests"
+                           value="ai">
+                    <label for="ai">Artificial Intelligence</label>
+                    <br>
+
+                    <input type="checkbox"
+                           id="mobile"
+                           name="interests"
+                           value="mobile">
+                    <label for="mobile">Mobile Development</label>
+                </div>
+
+                <br>
+
+                <!-- Message -->
+                <div>
+                    <label for="message">Your Message:</label>
+                    <br>
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              cols="35"
+                              placeholder="Write your message here..."
+                              required></textarea>
+                </div>
+
+                <br>
+
+                <!-- Buttons -->
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <button type="button" disabled>
+                        Coming Soon
+                    </button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            <span>Ali Murtaza</span> |
+            <small>HTML Internship - Day 01</small>
+        </p>
+    </footer>
+
+</body>
+</html>
